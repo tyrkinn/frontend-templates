@@ -5,6 +5,12 @@ module.exports = {
         paths: ['src'],
         extensions: ['.ts', '.tsx', '.js', '.jsx'],
       },
+      alias: {
+        extensions: ['.tsx', '.ts'],
+        map: [
+          ['@', './src'],
+        ],
+      },
     },
   },
   env: {
